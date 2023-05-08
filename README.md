@@ -1,9 +1,9 @@
-Fluxo de caixa e consolidação
+Fluxo de caixa e consolidação:
 
 Este é um aplicativo em C para gerenciamento de fluxo de caixa e consolidação. Ele utiliza uma base de dados para armazenar as informações financeiras e permite ao usuário consultar e gravar novas informações.
 
 repositório:
-https://github.com/seu-usuario/fluxo-de-caixa.git
+https://github.com/mbr3d4/fluxocaixa
 
 Utilização:
 O aplicativo exibe um menu com as seguintes opções:
@@ -32,10 +32,10 @@ Este aplicativo pode ser executado em um contêiner Docker para maior portabilid
 
 Certifique-se de ter o Docker instalado em sua máquina.
 
-Execute o container: docker run -it --rm fluxocaixa
+Execute o container: docker run -it --rm mbr3d4/fluxocaixa
 O comando docker run inicia um novo contêiner com a imagem especificada. A opção --rm faz com que o contêiner seja removido automaticamente após a sua finalização.
 
-Banco de dados
+Banco de dados:
 O aplicativo utiliza o SQLite como banco de dados.
 
 
